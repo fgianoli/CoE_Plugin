@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Convergence of Evidence
+qgisMinimumVersion=3.0
+description=This plujgin allow to compute the layer of the CoE
+version=0.1
+author=Federico Gianoli
+email=gianoli.federico@gmail.com
+
+about=The Convergence of Evidence applied to land degradation, as described in the World Atlas of Desertification, refers to a comprehensive approach that combines various sources of information and data to establish a robust understanding of the phenomenon of land degradation. This method involves integrating evidence from multiple disciplines, including remote sensing, soil science, climate data, vegetation analysis, and socio-economic indicators, among others. By amalgamating these diverse sources of information, the Convergence of Evidence approach aims to provide a holistic and multidimensional assessment of land degradation. It allows for a more accurate identification of areas affected by land degradation, the causes behind it, and the potential consequences for ecosystems and human societies. This integrated approach enhances our ability to develop effective strategies and policies for addressing land degradation and promoting sustainable land management practices.
+
+tracker=http://bugs
+repository=http://repo
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=yes
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=R, Convergence of Evidence, Land Degradation, SDG 15
+
+homepage=http://homepage
+category=Analysis
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
